@@ -11,25 +11,29 @@
 
 5. **Implement Test automation**  - developers are primarily responsible for creation and maintenance of automated test suites
 
-6. Support **Test data management** - have adequate test data, ability to acquire tests data on demand, condition data in a pipeline. Data should not limit the amount of tests you can run. Although amount of test data required should be minimised
+6. Support **Test data management** - have adequate test data, ability to acquire tests data on demand, condition data in a pipeline.
+Data should not limit the amount of tests you can run. Although amount of test data required should be minimised
 
 7. **Shift Left on Security** - Fixing security issues earlier in the pipeline will be less costly
 
 8. **Implement continuous delivery (CD)** - software should be in deployable state at any time
 
 ### Architecture Capabilities
-1. Use **loosely coupled architecture** - Boundary is on which team can test and deploy their applications on demand. This should be done without relying on other teams for support and services
+1. Use **loosely coupled architecture** - Boundary is on which team can test and deploy their applications on demand.
+This should be done without relying on other teams for support and services
 
 2. **Architect for empowered teams** - Tools to decided by practitioners
 
 ### Product and Process Capabilities
 1. **Gather and implement customer feedback**
 
-2. Make **flow of work visible** through value stream - not just within team but all the way from business through to customers. Included status of products and features
+2. Make **flow of work visible** through value stream - not just within team but all the way from business through to customers.
+Include status of products and features
 
 3. **Work in small batches** - work should be sliced up so that they can be completed in a week or less. 
 
-4.Foster and **enable team experimentation** - allow teams to independent try new ideas. Should be combined with incorporating customer feedback, making work flow visible and working in small batches
+4.Foster and **enable team experimentation** - allow teams to independent try new ideas. 
+Should be combined with incorporating customer feedback, making work flow visible and working in small batches
 
 ### Lean Management & Monitoring
 1. Having a **lightweight change approval process**
