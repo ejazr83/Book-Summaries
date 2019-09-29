@@ -5,14 +5,13 @@
 
 2. **Automate your deployment process**
 
-3. **Implement continuous integration** - code regularly checked in and run against tests to discover issues early and fix immediately
+3. **Implement continuous integration** - code regularly checked in and run against tests to discover issues early and fix immediately
 
-4. Use **Trunk-based development**: Fewer than three active branches. Short lifetimes where code is merged back into master
+4. Use **Trunk-based development** - Fewer than three active branches. Short lifetimes for branches where code is merged back into master
 
-5. **Implement Test automation**  - developers are primarily responsible for creation and maintenance of automated test suites
+5. **Implement Test automation** - developers are primarily responsible for creation and maintenance of automated test suites 
 
-6. Support **Test data management** - have adequate test data, ability to acquire tests data on demand, condition data in a pipeline.
-Data should not limit the amount of tests you can run. Although amount of test data required should be minimised
+6. Support **Test data management** - have adequate test data, ability to acquire tests data on demand, condition data in a pipeline. Data should not limit the ammount of tests you can run. Although amount of test data required should be minimised.
 
 7. **Shift Left on Security** - Fixing security issues earlier in the pipeline will be less costly
 
@@ -32,7 +31,7 @@ Include status of products and features
 
 3. **Work in small batches** - work should be sliced up so that they can be completed in a week or less. 
 
-4.Foster and **enable team experimentation** - allow teams to independent try new ideas. 
+4. Foster and **enable team experimentation** - allow teams to independent try new ideas. 
 Should be combined with incorporating customer feedback, making work flow visible and working in small batches
 
 ### Lean Management & Monitoring
