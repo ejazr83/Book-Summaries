@@ -26,8 +26,7 @@ This should be done without relying on other teams for support and serv
 ### Product and Process Capabilities
 1. **Gather and implement customer feedback**
 
-2. Make **flow of work visible** through value stream - not just within team but all the way from business through to customers.
-Include status of products and features
+2. Make **flow of work visible** through value stream - not just within team but all the way from the business through to customers. Include status of products and features
 
 3. **Work in small batches** - work should be sliced up so that they can be completed in a week or less. 
 
@@ -41,7 +40,7 @@ Should be combined with incorporating customer feedback, making work fl
 
 3. **System health should be checked proactively**
 
-4. Improve processes and **manage work with WIP limits** - WIP limits drives process improvements and makes constraints visible
+4. Improve processes and **manage work with WIP limits** drives process improvements and makes constraints visible
 
 5. **Visualise work to monitor quality** and communicate to teams
 
