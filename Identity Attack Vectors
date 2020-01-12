@@ -1,0 +1,38 @@
+# Identity Attack Vectors - 2019 - O-reilly
+
+### By Morey Haber and Darren Rolls
+
+## Three Pillars of CyberSecurity
+  1. Identity
+    - Human or Machine
+    - Trusted or Untrusted
+    - Business or Tech role
+    - Entitlement reporting
+    - Inception or revocation
+    
+  2. Privilege
+    - Admin vs Root vs Standard user
+    - Least privilidge
+    - Priv id mgmt
+    - Session mgmt
+    - Directory bridging with shared or local accounts
+    - Reporting and Analytics
+    
+  3. Asset
+    - Vulnerability Management
+    - Patch Management
+    - Configuration Management
+    - Regulatory Compliance
+    - Threat and Risk reporting
+    
+
+
+##Lateral Movement##
+
+Resources | Privileged Attack Vector | Asset Attack Vector
+Operating system | Credential, certifcates, or hash-based attacks | Vulnerabilities, exploits, and misconfigurations
+Applications | Credential, certifcates, or application-to-application attacks | Vulnerabilities, exploits, misconfigurations, insecure architectures, and end of life
+Containers | Credential, certifcates, or insecure connectivity (lack of zero trust) | Vulnerabilities, exploits, misconfigurations, insecure architectures, and agile DevOps
+Virtual machines | Credential or hash- or hypervisor-based credential attacks | Vulnerabilities, exploits, misconfigurations, insecure architectures and agile DevOps, and CPU- and memory-based vulnerabilities
+Accounts | Credential theft or abuse or identity theft | Credential theft, abuse, memory-scraping, and insecure credential storage 
+Identities | Credential reuse, credential theft | Inappropriate account linkage
