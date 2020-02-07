@@ -69,9 +69,24 @@ A good role model will provide a place to define, verify, and reconcile access, 
 
 
 ### Provisioning and Fulfillment
+Provisioning and fulfillment in a governance-based approach represents how the system assures completion of an action, regardless of how it gets delivered across the “last mile.”
 
+![Provisioning Broker](https://i.imgur.com/ZEQePmT.png)
+
+A provisioning engine has to be sophisticated and needs to have retry, rollback and ongoing assignment and de-assignment options. Behaviour under failure scenarios is key. Particulalry around entitlement package rollbacks if one of the provisioning actions fails. And how many times a retry attempt must be made.
+
+**Key Point** If the provisioning system only creats accounts and does not undertand account attributes and roles then its an "account only" provisioning. This should be avoided where possible for a full enterprise provisioning option which can assign roles as well.
 
 ### Governance Policy Enforcement
+Three common / main types of policies that drive access compliance. These should be owned by the business and should also include remediation advice for violations
+
+1. Seperation of Duty (SoD) policies: Defining roles that cant be owned by the same person. Eg: Invoice creation and payment or dev, testing and operations.
+
+2. Account policies: Basic policies on dormant accounts, provisioning pre-reqs. This could also include tracking multiple accounts and account creep
+
+3. Entitlement policies: Defines a specific set of applications that someone should have access to eg: manager and non-manager applications. Or entitlement package for department A vs department B. Allows for embedding checks and balances and making sure access restrictions are enforced.
+
+**Preventative vs Detective Policies:** You can use SoD rules for preventative policy controls so that bad access provisioning does not happen in the first place. Detective rules are passive and usually run in batches (end of month or end of quarter) Less intrusive as well as it doesnt break the provisoning process. You will need both
 
 
 ### Certification and Access Reviews
