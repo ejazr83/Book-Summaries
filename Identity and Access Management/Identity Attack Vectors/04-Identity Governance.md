@@ -90,13 +90,25 @@ Three common / main types of policies that drive access compliance. These should
 
 
 ### Certification and Access Reviews
+This is an important part of the Identity Governance process. It enables managers or delegates to review and verify access required in a consistent and highly auditable way
 
+Avoid **pitfall** of ruber stamp approvals. This can be done by designing campaigns which are business frinedly and moving towards an access review "by exception" policy or aggregating entitliements into a role.
+
+![Evolution of Access Certifications](https://imgur.com/uOz6vod)
+
+A general move towards preditive role based access, where even the "role engineering" process is using Machine learning and AI to come up with entitlement packages speeding up the traditionally tedious process of "role discovery and engineering"
 
 ### Governing unstructured Data
+Managing access to files is usually considered unstructured data
 
+Requires combination of data discovery and classification as well as permission management capabilities
 
 ### Self Service and Delegation
-
+Four items to address
+* Define requestable units that users can self-service request and get automatic access
+* Delegate to authorised indviduals (eg: Managers, HR etc) who can request and get access on behalf of the user rather than coming to IT. These are usually those who would approve access requests and verify access certifications as well
+* Overlay of Data driven controls and governance so that seperation of duties and other preentative access controls are maintained
+* Request tracking and reporting for all such requests
 
 ## Meeting Regulatory Compliance
 
