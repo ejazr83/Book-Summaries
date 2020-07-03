@@ -111,6 +111,6 @@ IT Roles:
 ![Two tier Enterprise Role Model](https://i.imgur.com/8h4wrNS.png)
 
 ## Bots
-  - Identity govenrnace shodul be used for Bots performing critical actions
-  - Requires building out an invetory and catalog the presence, purpose and access requirements
+  - Identity governance should be used for Bots performing critical actions
+  - Requires building out an inventory and having a catalog of their presence, purpose and access requirements
   - For persistent bots treat it like an identity for other accounts, catalogue them and manage their lifecycle
