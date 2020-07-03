@@ -59,7 +59,7 @@ Searching – The manual or electronic searching of passwords stored in insecure
 
 Privlidge accounts can be used in attack chains
 
-![Privilidge Attach Chain](https://imgur.com/oTp69vc)
+![Privilidge Attach Chain](https://i.imgur.com/oTp69vc.jpg)
 
 With this in mind, here are the definitions for each user account type that can be under IAM management:
 1. Privileged User – A privileged user is typically the administrator or root for a resource.
