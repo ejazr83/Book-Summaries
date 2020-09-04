@@ -9,8 +9,8 @@ Four aspects that can create an IoC:
 4.	Misuse of the Identity Governance system itself to compromise the environment
 
 IoC Analysis falls into two types:
-a. Reconciliation of their access to the entitlements they are authorised to
-b. Was the user behaviour  and their interaction with resources appropiate (risky behaviour of a compromised account) - this is more difficult
+a. Reconciliation of their access to the entitlements they are authorized to
+b. Was the user behavior  and their interaction with resources appropriate (risky behavior of a compromised account) - this is more difficult
 
 To help with this:
 1. Maintain a full map of accounts back to users using an Identity Governance solution
@@ -57,9 +57,9 @@ Searching – The manual or electronic searching of passwords stored in insecure
 
 ### Privileges
 
-Privlidge accounts can be used in attack chains
+Privileges accounts can be used in attack chains
 
-![Privilidge Attach Chain](https://i.imgur.com/oTp69vc.jpg)
+![Privileged Attach Chain](https://i.imgur.com/oTp69vc.jpg)
 
 With this in mind, here are the definitions for each user account type that can be under IAM management:
 1. Privileged User – A privileged user is typically the administrator or root for a resource.
@@ -71,3 +71,20 @@ With this in mind, here are the definitions for each user account type that can 
 7. None – No privileges at all and may not even be defined as an identity or account.
 
 ## Identity Management Controls in the Cyber Kill Chain
+Typical Cyber Attack has the following phases
+Reconnaissance --> Infiltration --> Exploitation --> Exfiltration
+
+We can fix IAM gaps by overlaying the following controls
+Weak Inventory and Cataloging - Default accounts and passwords used during lateral movement can be aggregated, certified, and automatically remediated. Orphan account management can detect the creation of new admin accounts used by attackers. An automated recertification can also be used to highlight escalation of privileges that tends to happen over an extended period.
+
+Strong Authentication - Strong multi-factor authentication and context aware login can prevent and detect lots of issues in the flow of the kill chain.
+
+Password Controls - Good password management controls play a significant part in preventing and slowing down the progress of an attack. Strong password policies make cracking and brute-force password attacks computationally time-consuming and costly for the attacker. 
+
+Lifecycle Management - Account Lifecycle Management sets out an operational baseline for both prevention and detection of compromise.
+
+PAM Governance - The inventory and modeling of any deployed Privilege Account Management (PAM) infrastructure proves essential additional controls and governance. Applying the full suite of IGA best practices to the entitlements managed by the PAM tier is also essential to prevent and detect an attack. 
+
+Request Controls - Approvals and audit for all new access changes stop the adversary from circumnavigating manual request and fulfillment systems. 
+
+File Access Governance - Effective access modeling, data classification, and file access alerts are key controls available throughout the Cyber Kill Chain.
