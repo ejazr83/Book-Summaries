@@ -21,3 +21,6 @@
     - Configuration Management
     - Regulatory Compliance
     - Threat and Risk reporting
+
+
+![Three Pillars of CyberSecurity](https://i.imgur.com/AKYZUW9.png)
