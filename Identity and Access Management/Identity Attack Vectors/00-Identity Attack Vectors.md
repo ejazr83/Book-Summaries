@@ -6,8 +6,3 @@
     
 
 
-
-
-  
- 
- ## Indicators of Compromise
