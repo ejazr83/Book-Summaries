@@ -63,7 +63,8 @@ IGA policy models are used to capture the desired state, known best practice con
 These models are abstract representations of how accounts and privileges should be set, approved, audited, and used to some known state. 
 Examples of IGA policy models include the entitlement catalog, provisioning schemas, approval and ownership records, audit requirements, role models, lifecycle triggers, and Separation of Duty rules.
 
-Enterprise Roles are a critical model in IGA
+Enterprise Roles are a critical model in IGA.
+
 A good role model will provide a place to define, verify, and reconcile access, a place to define the correct configuration or entitlement, a place to establish assignment approvals, and a place to track the ongoing state of access across potentially thousands of target applications, hundreds of thousands of users, and millions of entitlements.
 
 
@@ -94,7 +95,7 @@ This is an important part of the Identity Governance process. It enables manager
 
 Avoid **pitfall** of ruber stamp approvals. This can be done by designing campaigns which are business frinedly and moving towards an access review "by exception" policy or aggregating entitliements into a role.
 
-![Evolution of Access Certifications](https://imgur.com/uOz6vod)
+![Evolution of Access Certifications](https://i.imgur.com/uOz6vod.png)
 
 A general move towards preditive role based access, where even the "role engineering" process is using Machine learning and AI to come up with entitlement packages speeding up the traditionally tedious process of "role discovery and engineering"
 
